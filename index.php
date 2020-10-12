@@ -1,16 +1,12 @@
-<!DOCTYPE html>
-<html lang="">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Putovanja</title>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="css/style.css">
-</head>
+<?php include 'partials/header.php'; ?>
 
-<body>
+    <!-- header -->
+    <header class="mainHeader">
+        <h1>Vaše putovanje iz snova</h1>
+        <p>Izaberite svoju avanturu</p>
+        <button>Pretrazite</button>
+    </header>
 
-</body>
+<?php include 'partials/footer.php'; ?>
 
-</html>
+

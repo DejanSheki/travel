@@ -1,3 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap");
+/**** mixins ****/
+/**** basic styles ****/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #292e33;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  transition: 0.3s ease;
+}
+
+ul {
+  list-style: none;
+}
+
+/**** topBar ****/
+.topBar {
+  background: #292e33;
+  padding: 7px 0;
+  color: #fff;
+}
+.topBar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.topBar .container i {
+  color: #ff93cc;
+}
+.topBar .container .icons i {
+  margin-left: 10px;
+}
+.topBar .container .icons i:hover {
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+/**** nav ****/
+nav {
+  background: #fff;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+nav .container .logo {
+  color: #ff93cc;
+  text-shadow: 1px 1px #292e33;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+nav .container .logo:hover {
+  color: #292e33;
+  text-shadow: #ff93cc;
+}
+nav .container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+nav .container ul a {
+  color: #292e33;
+  margin-left: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+nav .container ul a:hover {
+  color: #ff93cc;
+}
+
+/***************
+footer
+***************/
+footer {
+  padding: 70px 0;
+  background: #292e33;
+  color: #fff;
+  line-height: 1.7;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+footer .container article h3 {
+  color: #ff93cc;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+footer .container article a {
+  color: lightgray;
+}
+footer .container article a:hover {
+  color: #ff93cc;
+}
+footer .container article input[type=email] {
+  padding: 15px 30px;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+footer .container article input[type=email]:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #292e33;
+  transition: 0.3s ease;
+}
+footer .container article input[type=email]:hover {
+  cursor: auto;
+}
+footer .container article input[type=submit] {
+  padding: 15px 30px;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+footer .container article input[type=submit]:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #292e33;
+  transition: 0.3s ease;
+}
+footer .container article:nth-child(1) {
+  flex: 0 0 39%;
+}
+footer .container article:nth-child(2) {
+  flex: 0 0 15%;
+}
+footer .container article:nth-child(3) {
+  flex: 0 0 39%;
+}
+
+.mainHeader {
+  background-image: url(../img/header.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #fff;
+}
+.mainHeader h1 {
+  font-size: 5rem;
+  text-shadow: 0 0 1px #292e33;
+}
+.mainHeader p {
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+.mainHeader button {
+  padding: 15px 30px;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.mainHeader button:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #292e33;
+  transition: 0.3s ease;
+}
 
 /*# sourceMappingURL=style.css.map */
