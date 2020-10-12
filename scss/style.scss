@@ -78,6 +78,62 @@ ul {
     list-style: none;
 }
 
+h2 {
+    font-size: 3rem;
+}
+
+.headers {
+    color: $white;
+    background-image: linear-gradient(rgba($darkGray, .7), rgba($darkGray, .7)), url(../img/headers.jpg);
+    @include bgImg(60vh);
+    .container {
+        @include flex(center,
+        flex-end,
+        column,
+        wrap);
+        height: 60vh;
+        h1 {
+            font-size: 4rem;
+            text-shadow: 0 0 1px $darkGray;
+        }
+        p {
+            font-size: 1.5rem;
+            opacity: .8;
+        }
+        button {
+            @include btn;
+        }
+    }
+}
+
+
+/**** widget ***/
+
+.widget {
+    @include flex(space-between,
+    flex-start,
+    column,
+    wrap);
+    background: $white;
+    padding: 5px;
+    box-shadow: 0 0 6px $darkGray;
+    position: fixed;
+    top: 40%;
+    font-size: 2rem;
+    .fa-facebook-square {
+        color: #3b5998;
+    }
+    .fa-instagram {
+        color: #c13584;
+    }
+    .fa-pinterest {
+        color: #e60023;
+    }
+    .fa-youtube-square {
+        color: #ff0000;
+    }
+}
+
 
 /**** topBar ****/
 
@@ -212,5 +268,44 @@ footer {
     }
     button {
         @include btn;
+    }
+}
+
+
+/**** putovanja ****/
+
+.putovanja {
+    padding: $padding;
+    text-align: center;
+    p {
+        background: $accents;
+        display: inline-block;
+        padding: 5px 40px;
+        box-shadow: $boxShadow;
+        margin: 20px 30px;
+        font-weight: 800;
+        color: $white;
+        text-shadow: 0 0 2px $darkGray;
+    }
+    .container {
+        @include flex(space-between,
+        center,
+        row,
+        wrap);
+        article {
+            flex: 0 0 30%;
+            box-shadow: $boxShadow;
+            margin-bottom: 80px;
+            img {
+                width: 100%;
+                display: block;
+            }
+            .text {
+                padding: 10px;
+                i {
+                    color: $accents;
+                }
+            }
+        }
     }
 }

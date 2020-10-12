@@ -29,6 +29,77 @@ ul {
   list-style: none;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
+.headers {
+  color: #fff;
+  background-image: linear-gradient(rgba(41, 46, 51, 0.7), rgba(41, 46, 51, 0.7)), url(../img/headers.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+.headers .container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 60vh;
+}
+.headers .container h1 {
+  font-size: 4rem;
+  text-shadow: 0 0 1px #292e33;
+}
+.headers .container p {
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+.headers .container button {
+  padding: 15px 30px;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.headers .container button:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #292e33;
+  transition: 0.3s ease;
+}
+
+/**** widget ***/
+.widget {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: #fff;
+  padding: 5px;
+  box-shadow: 0 0 6px #292e33;
+  position: fixed;
+  top: 40%;
+  font-size: 2rem;
+}
+.widget .fa-facebook-square {
+  color: #3b5998;
+}
+.widget .fa-instagram {
+  color: #c13584;
+}
+.widget .fa-pinterest {
+  color: #e60023;
+}
+.widget .fa-youtube-square {
+  color: #ff0000;
+}
+
 /**** topBar ****/
 .topBar {
   background: #292e33;
@@ -200,6 +271,44 @@ footer .container article:nth-child(3) {
   background: #fff;
   color: #292e33;
   transition: 0.3s ease;
+}
+
+/**** putovanja ****/
+.putovanja {
+  padding: 70px 0;
+  text-align: center;
+}
+.putovanja p {
+  background: #ff93cc;
+  display: inline-block;
+  padding: 5px 40px;
+  box-shadow: 0 0 10px lightgray;
+  margin: 20px 30px;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 0 0 2px #292e33;
+}
+.putovanja .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.putovanja .container article {
+  flex: 0 0 30%;
+  box-shadow: 0 0 10px lightgray;
+  margin-bottom: 80px;
+}
+.putovanja .container article img {
+  width: 100%;
+  display: block;
+}
+.putovanja .container article .text {
+  padding: 10px;
+}
+.putovanja .container article .text i {
+  color: #ff93cc;
 }
 
 /*# sourceMappingURL=style.css.map */
