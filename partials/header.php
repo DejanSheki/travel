@@ -11,8 +11,7 @@
 
 <body>
 
-    <!-- widget --> 
-
+<!-- widget --> 
     <section class="widget">
         <a href=""><i class="fab fa-facebook-square"></i></a>
         <a href=""><i class="fab fa-youtube-square"></i></a>
@@ -20,7 +19,7 @@
         <a href=""><i class="fab fa-pinterest"></i></a>
     </section>
 
-    <!-- topBar-->
+<!-- topBar-->
     <section class="topBar">
         <article class="container">
             <p><i class="fas fa-phone"></i>&nbsp;021 925 207 | <i class="fas fa-envelope"></i>&nbsp;info@putovanja.com</p>
@@ -31,7 +30,8 @@
             </div>
         </article>
     </section>
-    <!-- nav-->
+    
+<!-- nav-->
     <nav>
         <div class="container">
             <a href="" class="logo">putovanja.com</a>

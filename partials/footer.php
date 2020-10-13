@@ -1,6 +1,5 @@
-    
-    
-    <!-- footer -->
+   
+<!-- footer -->
     <footer>
         <div class="container">
             <article>

@@ -1,15 +1,13 @@
 <?php include 'partials/header.php'; ?>
 
-    <!-- header -->
-    
+<!-- header -->   
     <header class="mainHeader">
         <h1>Vaše putovanje iz snova</h1>
         <p>Izaberite svoju avanturu</p>
         <button>Pretrazite</button>
     </header>
 
-    <!-- putovanja --> 
-
+<!-- putovanja --> 
     <section class="putovanja">
         <h2>Najpopularnije destinacije</h2>
         <p>Rezervisite do kraja meseza za 30% popusta</p>

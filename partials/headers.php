@@ -1,8 +1,6 @@
 <?php include 'partials/header.php'; ?>
 
-    <!-- headers -->
-    
-
+<!-- headers -->   
     <header class="headers">
         <div class="container">
         <h1>Popust 10-30%</h1>
